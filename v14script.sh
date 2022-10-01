@@ -18,3 +18,28 @@ sudo adduser frappe-user
 sudo usermod -aG sudo frappe-user
 su frappe-user 
 cd /home/frappe-user/
+
+
+########################################
+######### Dependencies #################
+########################################
+
+# install git
+
+sudo apt-get install git
+
+git --version
+
+# install python
+
+sudo apt-get install python3-dev python3.10-dev python3-setuptools python3-pip python3-distutils
+
+# Install Python Virtual Environment
+
+sudo apt-get install python3.10-venv
+
+python3 -V
+
+# Install Software Properties Common (for repository management)
+
+sudo apt-get install software-properties-common
